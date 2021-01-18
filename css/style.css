@@ -1,0 +1,534 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.navv{
+    width: 100%;
+    display: flex;
+    justify-content:flex-end;
+    font-weight: bold;
+}
+
+
+.dugme{
+    color: white;
+    width: 120px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: black;
+    border: none;
+}
+
+.dugme:focus{
+    outline: none;
+    cursor: pointer;
+
+}
+
+.dugme:hover{
+    color: red;
+    background-color: white;
+    border: 1px solid black;
+}
+
+
+.nav-link{
+    margin-right: 20px;
+}
+
+.bg-light{
+    background-color: white  !important;
+
+}
+
+
+.navbar-brand{
+    font-size: 2rem;
+}
+
+.naslov{
+    font-size: 3.0rem;
+    margin: 3rem 5rem;
+}
+
+.paragraf{
+    font-size: 1.2rem;
+    color: #A4A4A4;
+    margin: 0px 150px;
+}
+
+.slika-pozadina{
+    background-image: url(../assets/hero-left.png), url(../assets/hero-right.png), url(../assets/hero-bg.png);
+    background-repeat: no-repeat,no-repeat,no-repeat;
+    background-position: -8vw 26vh, 83vw 1vh, center;
+    height: 120vh;
+    width: 100%;
+    background-size: 250px 175px, 250px 175px, cover;
+}
+
+.forma{
+    width: 100%;
+    height: 5rem;
+}
+
+.input{
+    width: 100%;
+    height: 4rem;
+    position: relative;
+}
+
+.btn{
+    position: absolute;
+    right: 0px;
+    height: 3rem;
+    width: 10%;
+}
+
+.input1{
+    width: 100%;
+}
+
+.input2{
+    width: 80%;
+    position: relative;
+}
+
+.input3{
+    width: 100%;
+    position: relative;
+}
+
+.input3, img{
+    position: absolute;
+    left: 15px;
+    height: 2rem;
+}
+
+.input{
+    width: 100%;
+    border: none;
+    height: 5rem;
+    border-radius: 10px;
+    padding-left: 80px;
+    box-shadow: 0px 0px 20px rgb(238, 238, 238);
+}
+
+.input:focus{
+    outline: none;
+}
+
+.btn-desno{
+    position: absolute;
+    right: 0px;
+    height: fit-content;
+}
+
+.dugme2{
+    height: 3.5rem;
+    width: 10rem;
+    border: none;
+    margin: 5px;
+    border-radius: 15px;
+    background: rgb(63,41,235);
+    background: linear-gradient(90deg, rgba(63,41,235,1) 0%, rgba(143,22,244,1) 60%, rgba(250,100,255,0.9895308465182948) 94%);
+    color: white;
+    box-shadow: rgb(119, 0, 119) 0px 0px 20px;
+}
+.dugme2:focus{
+    outline: none;
+    cursor: pointer;
+}
+
+select{
+    border: none;
+}
+
+.video-dugme{
+    width: 160px;
+    border: none;
+    height: 3.5rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgb(238, 238, 238);
+    color: rgb(63,41,235);
+    position: relative;
+    font-size: 0.9rem;
+    padding-right: 10px;
+}
+
+
+.video-dugme img{
+    position: relative;
+    left: 2px;
+    height: 40px;
+}
+
+.margina{
+    margin-top: 200px;
+}
+
+.naslov2{
+    font-size: 2rem;
+    margin-bottom: 70px;
+}
+
+.levi-padding{
+    padding-left: 20px;
+}
+
+.ul-lista{
+    list-style-type: none;
+}
+
+.ul-lista li{
+    margin-bottom: 30px;
+}
+
+.siva-kocka{
+    background-color: rgb(249, 242, 255);
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.ul-lista li h4{
+    color: rgb(150, 150, 150);
+    font-size: 1.2rem;
+}
+
+.siva-kocka1{
+    background-image: url(../assets/iconfinder_home-house-homepage-resient-address_3209296.svg);
+    height: 40px;
+    width: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.siva-kocka2{
+    background-image: url(../assets/iconfinder_iStar_Design_Space_LineIcons_Live-15_3088374.svg);
+    height: 40px;
+    width: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.siva-kocka3{
+    background-image: url(../assets/iconfinder_08.Credit-Card_290142.svg);
+    height: 40px;
+    width: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+
+.linije-slika{
+    background-image: url(../assets/download-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 730px;
+    margin-top: 200px;
+}
+
+
+
+.slika{
+    background-image: url(../assets/app-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 75%;
+    height: 500px;
+}
+
+.icon-download{
+    margin-right: 3rem;
+    height: 50px;
+}
+
+.download-title{
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.store-labela{
+    width: 100%;
+
+}
+
+.fog{
+    background-image: url(../assets/char-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: auto;
+}
+.strelice{
+    width: 100%;
+    height: 30px;
+}
+
+.strelice img:first-child{
+    padding: 10px;
+}
+
+
+.strelice img:last-child{
+    background-color:  rgb(249, 242, 255);
+    padding: 10px;
+    margin-left: 50px;
+}
+
+.games{
+    margin-top: 10rem;
+    background-image: url(../assets/yellow-shape.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 190px;
+    height: 250px;
+
+}
+
+
+.kartica-slika{
+    background-image: url(../assets/card1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 100%;
+    border-radius: 10px;
+    margin-right: 10px;
+    transition: all 1s;
+
+}
+
+.kartica-slika:hover{
+    transform: translatey(100px);
+    transition: all 1s;
+    box-shadow: 0px 0px 20px violet;
+}
+
+.kartica-slika2{
+    background-image: url(../assets/card2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 100%;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.kartica-slika3{
+    background-image: url(../assets/card3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    border-radius: 10px;
+    margin-right: 0px;
+}
+
+.btn-view{
+    width: 100%;
+    height: 30px;
+    background-color: rgba(255, 105, 180, 0.384);
+    border: none;
+    color: rgb(243, 184, 214);
+    transition: all 0.5s;
+
+}
+
+.btn-view:hover{
+    transition: all 1s;
+    background-color: rgba(255, 255, 255, 0.445);
+    color: red;
+}
+
+.btn-view:focus{
+    outline: none;
+    color: white;
+}
+
+.contact-us{
+    background-size: cover;
+    width: 80%;
+    height: auto;
+}
+
+.contact-us-desno p{
+    margin-bottom: 0px;
+    font-size: 2rem;
+}
+
+.contact-us-desno h1{
+    font-size: 3.5rem;
+}
+
+.contact-us-desno form{
+    width: 100%;
+}
+
+.input4{
+    width: 80%;
+    padding: 0px;
+    margin-bottom: 20px;
+    height: 3rem;
+    background-image: url(../assets/iconfinder_search_326690.svg);
+    background-repeat: no-repeat;
+    background-position: 15px;
+}
+
+
+.input5{
+    padding: 10px 0px;
+    width: 80%;
+}
+
+.dugme3{
+    color: white;
+    margin-top: 30px;
+}
+
+.futer{
+    background-color: rgb(79, 60, 223);
+    color: white;
+    border-radius: 20px;
+    height: 150px;
+    background-image: url(../assets/cta-btn.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0px 100px;
+}
+
+.futer h1{
+    font-size: 2rem;
+}
+
+.futer p{
+    font-size: 1rem;
+}
+
+.sign-up{
+    background-color: rgb(214, 214, 33);
+    padding: 10px 40px;
+    border-radius: 10px;
+    margin-right: 20px;
+    font-size: 1rem;
+}
+
+
+
+.newsletter{
+    position: relative;
+}
+
+.newsletter input{
+    width: 370px;
+    border-radius: 5px;
+    height: 2.5rem;
+    padding-left: 10px;
+    border: none;
+    box-shadow: 0px 0px 10px rgb(82, 79, 79);
+}
+
+.dugme5{
+    background-color: rgb(64, 64, 250);
+    color: rgb(243, 243, 85);
+    width: 100px;
+    position: absolute;
+    right: 0px;
+    height: 2.5rem;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.disc-lista{
+    list-style-type: disc;
+}
+
+
+.slika-pricing{
+    background-image: url(../assets/pricing-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    background-position: center;
+}
+
+.tab-row{
+    box-shadow: 0px 5px 50px rgb(82, 79, 79);
+    border-radius: 65px;
+    padding: 50px;
+}
+
+.tab{
+    transition: all 1s;
+    margin-top: 10px;
+}
+
+.tab li{
+    margin-bottom: 20px;
+}
+
+.tab h1{
+    margin-bottom: 30px;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.span{
+    color: rgb(243, 19, 213);
+    font-weight: bold;
+}
+
+.tab:hover{
+    transition: all 1.2s;
+    transform: translateY(120px);
+    box-shadow: 0px 5px 50px rgb(98, 72, 243);
+    border-radius: 40px;
+    margin-top: 20px;
+    background-image: url(../assets/card-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ul-lista-tab li{
+    font-size: 1.2rem;
+}
+
+.naslov-tab h1{
+    font-size: 3.5rem;
+}
+
+.naslov-tab p{
+    font-size: 1.2rem;
+}
+
+
+.naslov-tab h1:hover{
+    font-size: 1.2rem;
+}
+
+.tab:hover{
+    color: white;
+}
+
+
+
